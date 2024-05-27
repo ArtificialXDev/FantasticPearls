@@ -1,0 +1,179 @@
+<?php __HALT_COMPILER(); ?>
+-              +  a:10:{s:7:"builder";s:34:"PoggitCI/1.0-beta/beta default/2.0";s:11:"builderName";s:6:"poggit";s:9:"buildTime";s:25:"2024-05-20T20:45:17+00:00";s:13:"poggitBuildId";i:175481;s:10:"buildClass";s:3:"Dev";s:9:"projectId";i:13790;s:18:"projectBuildNumber";i:10;s:10:"fromCommit";s:40:"23170d6c0a71904b7731075894b7fafac9174531";s:16:"poggitResourceId";i:239366;s:13:"poggitRelease";a:12:{s:4:"date";i:1716238006;s:8:"official";b:0;s:10:"preRelease";b:0;s:8:"outdated";b:0;s:13:"majorCategory";s:9:"Mechanics";s:15:"minorCategories";a:3:{i:0;s:7:"General";i:1;s:13:"Teleportation";i:2;s:13:"Miscellaneous";}s:8:"keywords";a:10:{i:0;s:10:"AntiGlitch";i:1;s:8:"cooldown";i:2;s:5:"ender";i:3;s:10:"enderpearl";i:4;s:11:"enderpearls";i:5;s:6:"glitch";i:6;s:9:"ItsMax123";i:7;s:5:"pearl";i:8;s:5:"phase";i:9;s:5:"timer";}s:8:"requires";a:0:{}s:7:"license";s:10:"Apache-2.0";s:5:"perms";a:0:{}s:9:"producers";a:1:{i:0;O:8:"stdClass":3:{s:3:"uid";s:8:"43801744";s:4:"name";s:9:"ItsMax123";s:5:"level";s:1:"1";}}s:4:"link";s:49:"https://poggit.pmmp.io/r/239373/BetterPearls.phar";}}    .poggit      Kf              
+   plugin.yml      Kf    V (          resources/config.yml     Kf     R        %   src/Max/BetterPearls/BetterPearls.php     Kf    B        &   src/Max/BetterPearls/EventListener.phpb*    Kf8
+  	8v       .   src/Max/BetterPearls/PearlCooldownStopTask.php     KfQ   +            src/Max/BetterPearls/Session.php$    Kf3   @QO       9   src/Max/BetterPearls/addons/scorehud/ScoreHudListener.php     KfZ  1i %       5   src/Max/BetterPearls/addons/scorehud/ScoreHudTask.php     Kf     
+       7   src/Max/BetterPearls/events/PearlCooldownStartEvent.php     Kf  G w       6   src/Max/BetterPearls/events/PearlCooldownStopEvent.php    Kf     , ~           LICENSE (    Kf (   Lֽ        ---
+name: FantasticPearl
+main: Max\BetterPearls\BetterPearls
+version: 1.2.1
+api:
+- 5.0.0
+softdepend:
+- ScoreHud
+author: SHAHZAIN4
+website:https://github.com/SHAHZAIN4/FantasticPearls
+...
+  A  0   Cf{ I(  \C=  n/=* 8 GF 1a  ޑeo   fI3 {3~[8 +3x "<  !  /P
+H  ծ g  m Uu   ]&  xʶ\Q T- @   ;c=( R  c 
+ @    xo{  +  u  
+hѓlf N 
+ڠ   6RxE 6  ], o  L  x2ENU'mxE   b`닱 :   h  <
+? ʧI     j-       
+ Q  \ `zͿ	 
+ L~  I E   ! sS8/ ? & ? .     uc   1 9 a} \   (    @: D| M  \   e` 3?u   !6      olF^  l W !w X   g ɫ <Zn=    14J   z T R ) " *	YF(  ' I   L         S]o 0} W !ԩ   Lt V  * =4  M  3_;-   s @  : 8  8  |    I1) A ֨    y )v:$ ȥL K<Ak < 4   ױLSMs 
+.\O  . Wl  CY  _h  0.
+ B?  H  |  &   z ̰ 
+ ⛧ y ~ FU "  V% E=E    g {    J "  4 C r  4F   M a y[\   d  c  ^ TD  J[6 b,  `  {  By=   T [ Oi ?^   f  FS r
+sr S4 C#փ$ 7w zJ B , !|nf'B  i  2 
+  ݍ7 |  \QD;O O  G     Ze+   k U g W  3t8ݳS
+ 
+N      
+  ̻  -	      ]ڊ4YYd a<  ֊ h YZ     ъw :O ' h]   j ٓR       I[ٽ  WW[  _ Z S9  _ P el{  *X 
+	 PE6 .  Č    Fc    nI3#  <rw_ Ea  j    4?  㵵  !M 'ӄ  u      Et dL}F    )K MB	 SYm ; r   
+b}Ni a  c  
+ K'<bCh  b' w <dã(0   x: I L u  H}     i@    ҟr   %
+ qH,   w   6f I &     M $   Q 8M  ӈ !EY   R o \ 	 mĂ  
+I ҙH 
+'~ И  Eh U  3o8 8   Ya w
+  s6O )  B    LH r5t    #ѐ@ H *2 - 8dta    F '      N:q8  0 & ބ ' i    D  O  a] ? t e @w   3v k  /_j     H   ɯ G  M v  "   F:ʻ   N       Bw n    %VC#  Qɭ $a 41  h{ J
+6Z k   F  l(귪˦F  E  (N ),uܗ  H 4   z   Y ֱ ˸  1ʣE3  t  Z4.O  "  C1 r^  r.  #V  yZ MgΣ;f v  F-+R+ɍ   rZ: H yE   BT  ,    <  'z  j i »   n     #avc  #| } Y_ !     J' xU  V  	  y  }]        U   3Zҡ    c ,   ɏ  5 k9 LT5[   :   ',-GO}1 f ،4 
+  z A ۪l zfh  b:
+X C |    +7  a 5 m[  Q Z*If   n   TgD 5_ 
+$PT0o ! ^+ 6z-jre  h   ! 3   S ͫ1  UO   Y ՘, L W U TT   /"  S^  |p~ UkS -?0 f    Y 5 d0íy  ̴  pi   S d S  J:U	 tT  # PPP <   -A  8  ڑ 8         G   RK n1  ( _ OH[jګ+,  v"l  9Z^ 1' R/W  0 z M y\ * @D9
+ rT
+&
+]2	 Rtnļ Tބ  T  g 9      u _@[e  l쥢_  
+g  ʱE Tc   A    >   q    h  
+ ӏ_V   F E   g# F CÔ  'y   j# L  b     \8պrVU 	  ( V ӳ z.    3x   '  & @Ffc2" 1҈ "`$L H    c v  Fj#@'qCo  aD ) @ 	 l  bj  /@ 薌Yb   #$ 2 m "zGH   H    C ,   )   < Aٍ4ײ
+    F [κ  ,
+   Hs  B P  8%b Ŭ  Qc w!$ @ - S㝵 (٤  )M= s    T    z zB   "<    P + _ 
+~e po ِg! 
+    ºP c    t \ 8&i f \  	 CHR1  ׊$32   m  CN1L - %       SH  2 X  2  P  {   I EF n  @  2  _b   >    n 	  y    #~   wM   "     = }i   j Sˋ z #   "{ 4Ոf_  )T  o8T3h ǌ貙h 
+   ` #P     4  8 ^   *~@ 
+  9@DEh c G    } ⛩¬ m  )   V],%쎋) ɈB! q KZ  
+. (h 0 <   
+l$G9 ^]ͬ w
+   3U  }  M h "    Z Z o   \     i    fd 1Y   v   $% H
+e|a     s   5 p ֏   4A       q   9 :PW   
+  QJn  1f Cg Q    9   r| u )\&<B  K   PM      U Bhg -[  )HT" ^ޒ 9 . T  h uT! 晎* 6̄ 
+  W{ R  T?67+ KqЬ&s  E    !jd b_ pj7[T^UC    '  Y7j   u   ./ n5 Rc߰=   T
+  pwj C MM  K   X +  ȍ<3B i 5/ [ 
+i6kx  pmK2rq  \    |  IŒ  RaKⴤ |   ]   8 <<  @ : <j  x      S c`   ם   D `xt    c` c < eK /
+xV ǲo/  ?xX    0  B \ C   ;[ OR$  l 	OI2 dv  I[-   
+  >   D   f  "  Hk $  Z  <ha W 5  
+ l   Y  ki  Ss   E 3˕  X f U~ 3  ]       ' ? P   "  5 N ߌ`    y炮t{  + gܷ=    w"V  [  ". DQzݢ   [OX  k cA 8E D 7  +K u#    ݣ >]   t     U/ y  w'S}k   y ϥ /*<  I  K<e .{ +3 y  	  ;  Q]t>  _mQ j 0  +D A  ЫӤ  B)   Ty  ȒЮ hɿWv   E vf4z| ; $(#p      b $V  ^*`
+yʟ  d0 
+  `	 ;g
+w    K= 4;ީ=P -   3 |     
++  \   +8ѫ
+   I| "   , [ k     A$ 곱o}\   h 6 U  e r6FT)     5   tv   Y       ,;8]t   _: 8wւ"(     -  o    Δ4  I  Ƽ (  o1g r  
+   Y z I  G  F  m w     2 jM ]  ب?     w    n 0  } 8  8 ڮLڴäm ĎHUHM (N 4  K;&V: '  v|wo 6rP t; 8 Jo $P.  T ^ z     A   cE  Q
+ F       #c   g |X k  4   ȣ1enV  K  5/s  T R+1 Pq  eʠg   Χ  5
+G  vl (      y   t  kI . bQ  9   U Ͼ 
+ h8  V
+   ^ T  +b k=  s   /g \9<
+0    w<  v     )  Qt7   ; |  7Z 7 :9   |  u ]K 0   +B E
+N     T 6 *H  vair  ! 鈴  \ G s 7 fg    B  
+    fw ,   
+e@  w ΁] sʹV # v5  5Y`i n  5     Z 
+P  4 Yh R  -A =k- >     t f{p PЎ @  +BQI<-"   DTFB    OD 1 V
+F Z1' "Zy  ( OGFal:% -x М  %   x^  Oos  
+ 4M   OR e   < e-w   ;   }RYCO  9   x ML   t 	
+U S 5  % & 6X  rB   D   -!  j) y ސ I
+v οuR O#!  _AL    ]k 1  &F  $
+    Am     L  Z 
+     ~ݺ U      +a  o ٬   :.    B   k    `  zh L @ V y  /  a
+& Ϛ     'y  |9; /dK˽l ғ E   
+ ʚ  x  QjW t  tQ4  N 7  )U
+"9Z̗v DR+  y M H JF c  :Cd Ggm;. d   X 4  tH : \  (    *   VB 3  !<%nP6  cg  YKx8o՚ h(   U gN Ȑf2Wxo @R      d 2&w z , \It)   ~  1) l l w jL(M  (  ( g;    ? X  \p ) 
+        C  | =  -I       
+' Cu    AO 0   >  Ip 2  8"M c  K
+ H (q &  NҮ   %R   g ?ڝM   BG g' |  Ww <I4  -
+  O LnC / % >hO`  $     X  n  * J Cf   y _3 D  2 C  6FU K 2: L 
+  dm q8Â BŴ9l X'[d,Rq 
+ ]  *) т  P   p Fp GCڃ L   X)錄} u & K 0%#G   N -     /    3  6Kh   ;]C>  ] A
+ 0   9x        ` .b    tC   V %  d  '/D  ȀqЊ[=R5  BXyA R!  Ь C 2j  )2=!x   m1 7r  ԩm_R   1' @)}       dm  @ 
+     
+  U    U  Oz E a WMߎWM  i   >H   x<Apache License
+
+Version 2.0, January 2004
+
+http://www.apache.org/licenses/
+
+ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+
+      (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+   You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability. END OF TERMS AND CONDITIONS
+
+APPENDIX: How to apply the Apache License to your work.
+
+To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
+
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+
+you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+
+distributed under the License is distributed on an "AS IS" BASIS,
+
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and
+
+limitations under the License.
+
+bcʘ  Y< , ;G  t    GBMB
